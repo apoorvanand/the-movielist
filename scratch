@@ -1,0 +1,12 @@
+<div class="center truncate">
+                  <h3>Title : {{u.original_title}} </h3>
+                  <p style="font-size:2vw;"> Release Date :{{u.release_date}}</p>
+
+                </div>
+                <h3 class="center"></h3> Voted by <i class="far fa-user"></i> {{u.vote_count}}</h3>
+                </div>
+
+
+                <img class="activator" id="smallsize"src="https://image.tmdb.org/t/p/w500{{u.poster_path}}">
+                      <img class="activator" id="smallsize"src="https://image.tmdb.org/t/p/w500{{u.backdrop_path}}">              <img class="activator" id="smallsize"src="https://image.tmdb.org/t/p/w500{{u.poster_path}}">
+                      <img  id="smallsize"src="https://image.tmdb.org/t/p/w500{{u.backdrop_path}}">

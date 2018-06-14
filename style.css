@@ -1,0 +1,87 @@
+/* Materialize Stacked Pages
+https://medium.com/@bootply/md-example-stacked-pages-2eedfe88a12a
+*/
+
+html,
+body {
+    min-height: 100%;
+	min-height: 100vh;
+}
+
+main.container {
+	width: 100%;
+	max-width: 100%;
+
+}
+
+.pages {
+	position: relative;
+	width: 100%;
+	background: #fff;
+}
+
+.page {
+	padding: 4.5em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	min-height: 100vh;
+	visibility: hidden;
+	z-index: 1;
+	box-shadow:0 1px 2px rgba(2,2,2,0.4);
+}
+
+.page.prev {
+	visibility: visible;
+	position: static;
+	z-index: 1;
+}
+
+.page.active {
+	visibility: visible;
+	position: relative;
+	z-index: 3;
+}
+
+.page.fixed {
+    position: relative;
+	visibility: visible;
+	z-index: 2;
+}
+
+/* do the fixed layer scrolly thing only on non-mobile */
+@media (min-width:400px) {
+    .page.fixed {
+    	position: fixed;
+    }
+}
+
+.footer {
+    height: 100%;
+    width: 100%;
+	min-height: 101vh; /* slighlty bigger to force scroll! */
+}
+
+.footer > .row {
+    margin-bottom:0;
+}
+
+
+.flex {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.card-image{
+	width: 100%;
+    height: auto;
+}
+.card-content{
+	color:grey;
+}
+.greyy-text{
+	color:darkgrey;
+}

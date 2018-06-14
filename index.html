@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.js"
+    integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+    crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script type="text/Javascript">
+   $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.carousel').carousel();
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+ 
+ });
+      </script>
+    </head>
+
+    <body>
+        <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">The Movie List</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="./popular.html">Popular Movies</a></li>
+        <li><a href="./toprated.html">Top Rated</a></li>
+        <li><a href="./nowplaying.html">Now Playing</a></li>
+        <li><a href="./upcoming.html">Upcoming</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="./popular.html">Popular</a></li>
+    <li><a href="./toprated.html">Top Rated</a></li>
+    <li><a href="./nowplaying.html">Now Playing</a></li>
+    <li><a href="./upcoming.html">Upcoming</a></li>
+</ul>
+       
+            
+
+    <!-- Page Layout here -->
+    <div class="row">
+
+            <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
+              <!-- Grey navigation panel
+      
+                    This content will be:
+                3-columns-wide on large screens,
+                4-columns-wide on medium screens,
+                12-columns-wide on small screens  -->
+                <div class="carousel carousel-slider">
+    <a class="carousel-item" href="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"download><img src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"></a>
+    <a class="carousel-item" href="https://image.tmdb.org/t/p/w500/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg"download><img src="https://image.tmdb.org/t/p/w500/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg"></a>
+    <a class="carousel-item" href="https://image.tmdb.org/t/p/w500/v5HlmJK9bdeHxN2QhaFP1ivjX3U.jpg"download><img src="https://image.tmdb.org/t/p/w500/v5HlmJK9bdeHxN2QhaFP1ivjX3U.jpg"></a>
+    <a class="carousel-item" href="https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg"download><img src="https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg"></a>
+    <a class="carousel-item" href="https://image.tmdb.org/t/p/w500/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg"download><img src="https://image.tmdb.org/t/p/w500/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg"></a>
+  </div>
+            </div>
+      
+            <div class="col s12 m8 l9" > <!-- Note that "m8 l9" was added -->
+              <!-- Teal page content
+      
+                    This content will be:
+                9-columns-wide on large screens,
+                8-columns-wide on medium screens,
+                12-columns-wide on small screens  -->
+      
+            </div>
+      
+          </div>
+                        
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    </body>
+  </html>
+        

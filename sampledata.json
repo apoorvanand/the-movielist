@@ -1,0 +1,73 @@
+{
+    "artist_id": 33491453,
+    "artist_mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+    "artist_name": "Drake",
+    "artist_name_tra              nslation_list": [{
+        "artist_name_translation": {
+            "language": "JA",
+            "translation": "ドレイク"
+        }
+    }],
+    "artist_comment": "",
+    "artist_country": "PL",
+    "artist_alias_list": [{
+        "artist_alias": "ドレイク"
+    }],
+    "artist_rating": 97,
+    "primary_genres": {
+        "music_genre_list": [{
+            "music_genre": {
+                "music_genre_id": 7,
+                "music_genre_parent_id": 34,
+                "music_genre_name": "Electronic",
+                "music_genre_name_extended": "Electronic",
+                "music_genre_vanity": "Electronic"
+            }
+        }, {
+            "music_genre": {
+                "music_genre_id": 14,
+                "music_genre_parent_id": 34,
+                "music_genre_name": "Pop",
+                "music_genre_name_extended": "Pop",
+                "music_genre_vanity": "Pop"
+            }
+        }, {
+            "music_genre": {
+                "music_genre_id": 17,
+                "music_genre_parent_id": 34,
+                "music_genre_name": "Dance",
+                "music_genre_name_extended": "Dance",
+                "music_genre_vanity": "Dance"
+            }
+        }, {
+            "music_genre": {
+                "music_genre_id": 18,
+                "music_genre_parent_id": 34,
+                "music_genre_name": "Hip Hop/Rap",
+                "music_genre_name_extended": "Hip Hop/Rap",
+                "music_genre_vanity": "Hip-Hop-Rap"
+            }
+        }, {
+            "music_genre": {
+                "music_genre_id": 21,
+                "music_genre_parent_id": 34,
+                "music_genre_name": "Rock",
+                "music_genre_name_extended": "Rock",
+                "music_genre_vanity": "Rock"
+            }
+        }]
+    },
+    "secondary_genres": {
+        "music_genre_list": []
+    },
+    "artist_twitter_url": "https://twitter.com/drake",
+    "artist_vanity_id": "Drake",
+    "artist_edit_url": "https://www.musixmatch.com/artist/Drake?utm_source=application&utm_campaign=api&utm_medium=",
+    "artist_share_url": "https://www.musixmatch.com/artist/Drake",
+    "artist_credits": {
+        "artist_list": []
+    },
+    "restricted": 0,
+    "managed": 0,
+    "updated_time": "2017-04-28T23:14:56Z"
+}
